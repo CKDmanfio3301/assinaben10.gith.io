@@ -1,12 +1,12 @@
 :root {
     --branco-principal: #FFFFFF;
-    --verde-principal: #00BFAE; /* Verde típico do Ben 10 */
-    --verde-secundario: #00A859; /* Verde escuro para contrastar */
+    --verde-principal: #4A773C; /* Verde musgo */
+    --verde-secundario: #6B8E23; /* Verde musgo mais claro para contraste */
     --preto-secundario: #1D1D1D; /* Preto para contraste */
     --cinza-secundario: #C0C0C0;
     --cor-de-fundo: #000000; /* Fundo escuro para destacar o verde */
     --fonte-principal: 'Inter';
-    --botao-verde-efeito: #009A8E; /* Verde mais escuro para efeitos */
+    --botao-verde-efeito: #3B5E2B; /* Verde musgo mais escuro para efeitos */
 }
 
 body {
@@ -154,7 +154,7 @@ body {
 }
 
 .lista__link a:active {
-    color: var(--verde-secundario); /* Verde escuro para clique */
+    color: var(--verde-secundario); /* Verde musgo mais claro para clique */
 }
 
 .container__botao:hover {
